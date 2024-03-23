@@ -1,0 +1,18 @@
+import datetime
+bugun = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+yil = int(datetime.datetime.now().strftime("%Y"))
+ay = int(datetime.datetime.now().strftime("%m"))
+gün = int(datetime.datetime.now().strftime("%d"))
+print("Tarih saat =",bugun)
+#dgunu = input("Dogun tarihin nedir? (01.01.2000 gibi yaz)")
+dgunu ="10.10.2020"
+print(dgunu)
+dyil = dgunu[6:10]
+day1 = dgunu [3:5]
+dgun dgunu [0:2]
+print(dyil1,day1,dgün)
+if ay>day1: 
+   print("Yaşadığın yıl:", yil-dyil)
+else: 
+    print("Yaşadığın yıl:"yil-dyil-1)
+print("Yaşadığın gün:",(yil-dyil*365))
