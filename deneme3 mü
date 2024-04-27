@@ -1,0 +1,22 @@
+#Buton ekleyelim
+from PyQt5.QtWidgets import *
+aa = QApplication([])
+ww = QWidget () # pencere
+www1 = QWidget() # pencere
+
+def icerikOlustur(XX):
+    XX.addWidget(QLabel('Kullanıcı adı'))
+    XX.addWidget(QLineEdit('Kullanıcı adınız...'))
+    XX.addWidget(QLabel('Şifre:'))
+    XX.addWidget(QLineEdit())
+    XX.addWidget(QPushButton('Giriş yap'))
+    
+    icerik = QBoxLayout()
+    icerikOlustur(icerik)
+    ww.setLayout(icerik)
+    ww.show()
+
+    icerik = QBoxLayout()
+    icerikOlustur(icerik2)
+    ww.setLayout(icerik2)
+    ww.show()
